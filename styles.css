@@ -1,0 +1,63 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: rgb(9, 129, 71);
+    color: #111111;
+    margin: 0;
+}
+header {
+    background-color: #111111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+main {
+    text-align: center;
+    padding: 20px;
+
+}
+
+.ofertas_flash{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    gap: 10px 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #e63548;
+    gap: 20;
+}
+.formulario{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;       
+}
+.boton{
+    background-color: palegoldenrod;
+    border-radius: 20px;
+    border: 2px solid rgb(98, 42, 24);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
